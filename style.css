@@ -1,0 +1,249 @@
+body{
+    background: #89C4E1;
+}
+
+ 
+.nav{
+    width: 80%;
+    height: 150px;
+    margin: 30px 10%;
+    border-radius: 20px;
+    background: #58287F;
+    box-shadow: 10px 10px 80px 5px #a5a5a3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-text-stroke: medium;
+    color: goldenrod;
+    border-radius: 30px;
+    background: #2B3467;
+}
+
+#h1 {
+    background: none;
+}
+
+.bienvenidos {
+    font-family: 'Anton', sans-serif;
+    font-size: 150%;
+    color: white;
+}
+
+.principal {    
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.encriptar {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.condiciones {
+    font-family: 'Nunito', sans-serif;
+    background: #F5EDCE;
+    margin: 0;
+    margin: 0 1%;
+    border-radius: 0 0 10px 10px;
+    padding: 1%;
+    color: #58287F;
+    font-weight: bold;
+}
+
+li {
+    margin: 3px;
+}
+
+.cuadrosTextoE {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0 1%;
+    resize: none;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    outline: none;
+    background-color: #F5EDCE;
+    color: #58287F;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.desencriptar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cuadrosTextoD {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #F5EDCE;
+    font-size: 17px;
+    color: #58287F;
+    padding: 20px;
+    height: 320px;
+}
+
+::placeholder { 
+    color: #58287F; 
+}
+
+button#btn {
+    background-color:#F5EDCE;
+    color: #58287F;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px 0 0 0;
+}
+
+button#btn:hover {
+  color: white;
+  background-color: #58287F;
+}
+
+
+#divBotones {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.boton {
+    font-family: 'Arvo', serif;
+    margin: 20px;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    border: 0;
+    color: #58287F;
+    background: #58287F;
+    color: white;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.boton:hover{
+    background: #F5EDCE;
+    font-size: 18px;
+    color: #58287F;
+}
+
+.final {
+    margin-top: 50px;
+    width: 100%;
+    background: #1A0000;
+    display: flex;
+    justify-content: space-around
+}
+
+.logoF {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 13px;
+    margin-bottom: 5px;
+}
+
+.logoOne , .logoAlura, .logoCreador {
+    font-family: 'Arvo', serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    width: 50%;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.redesSociales {
+    font-family: 'Arvo', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+#alura {
+    background-color:#2B3467 ;
+}
+
+@media screen and (max-width:480px){
+    
+    .bienvenidos{
+        font-size: 100%;
+    }
+    
+    .principal {    
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #divBotones{
+        margin-top: 4%;
+    }
+
+    .cuadrosTextoE{
+        font-size: 14px;
+    }
+
+    .encriptar {
+        width: 80%;
+        margin-bottom: 5%;
+        height: 300px;
+    }
+    
+    li {
+        margin: 3px;
+        font-size: 14px;
+    }
+ 
+    .desencriptar {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    button#btn {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+

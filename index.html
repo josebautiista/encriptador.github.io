@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador/Desencriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <style> @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); </style>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap'); </style>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap'); </style>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="nav">
+                <div>
+                    <img class="logo" src="alurab.jpg" alt="alura">
+                    <h1 id="h1"class="logo">+</h1>
+                    <img class="logo" src="jose.jpg" alt="Creador">
+                </div>
+                <h1 class="bienvenidos">Bienvenidos! Encriptador/Desencriptador</h1>
+            </div> 
+                          
+        </header>
+
+        <main>
+            
+                <div class="principal">
+                    <div class="encriptar">
+                        <textarea id="text1" autofocus rows="10" autocorect="on" class="cuadrosTextoE" placeholder="Escribe el mensaje a encriptar o desencriptar"></textarea>
+                        <ul class="condiciones">
+                            <li>Ingrese solo letras minúsculas</li>
+                            <li>NO usar caracteres especiales</li>
+                            <li>NO usar letras con acento</li>
+                        </ul>
+                        <div id="divBotones">
+                            <button class="boton" onclick="validarE()">Encriptar</button>
+                            <button class="boton" onclick="validarD()">Desencriptar</button>
+                        </div>   
+                    </div>
+                    
+                    <div class="desencriptar">
+                        <textarea id="text2" disabled rows="9" autocorect="on" class="cuadrosTextoD" placeholder="Aquí se verá tu mensaje secreto"></textarea>
+                        <button id="btn" onclick="copiar()">Copiar</button>
+                    </div>
+                    
+                </div>        
+            
+        </main>
+
+        <footer class="final">
+
+            <div class="logos">
+                <div class="logoOne">
+                    <img class="logoF" src="one.jpg" alt="ONE logo">
+                    <p class="logoT">One Next Education</p>
+                </div>
+                
+                <div class="logoAlura">
+                    <img id="alura"class="logoF" src="alurab.jpg" alt="alura">
+                    <p class="logoT">Alura LATAM</p>
+                </div>
+                
+                <div class="logoCreador">
+                    <img class="logoF" src="jose.jpg" alt="Creador">   
+                    <P class="logoT">Jose Bautista</P> 
+                </div>
+            </div>
+            
+
+            <div class="redesSociales">
+                <h2>Redes sociales</h2>
+                <a href="https://www.facebook.com/jose.bautista.r"><img class="logoF" src="facebook.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/jose-bautista-sft/"><img class="logoF" src="linkedin.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=573012235489"><img class="logoF" src="whatsapp.png" alt=""></a>
+            </div>
+                    
+        </footer>
+
+    </body>
+    
+
+
+</html>
