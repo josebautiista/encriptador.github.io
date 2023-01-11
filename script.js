@@ -20,7 +20,7 @@ function validarE() {
 
         text1color.style.color ="red"
         setTimeout(function(){
-            text1color.style.color = "black";
+            text1color.style.color = "#58287F";
          }, 2000);
     }
     
@@ -37,7 +37,7 @@ function validarD() {
 
         text1color.style.color ="red"
         setTimeout(function(){
-            text1color.style.color = "black";
+            text1color.style.color = "#58287F";
          }, 2000);
         
     }
