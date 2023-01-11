@@ -16,7 +16,12 @@ function validarE() {
     if (/^[a-z\s]+$/.test(text1.value)) {
         encriptar()
     }else {
-        alert("El texto ingresado no cumple con las condicones del encriptador")
+        let text1color=document.getElementById("condiciones")
+
+        text1color.style.color ="red"
+        setTimeout(function(){
+            text1color.style.color = "black";
+         }, 2000);
     }
     
 }
@@ -28,7 +33,12 @@ function validarD() {
     if (/^[a-z\s]+$/.test(text1.value)) {
         desencriptar()
     }else {
-        alert("El texto ingresado no cumple con las condicones del encriptador")
+        let text1color=document.getElementById("condiciones")
+
+        text1color.style.color ="red"
+        setTimeout(function(){
+            text1color.style.color = "black";
+         }, 2000);
         
     }
     
