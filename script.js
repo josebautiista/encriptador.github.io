@@ -17,8 +17,8 @@ function validarE() {
         encriptar()
     }else {
         let text1color=document.getElementById("condiciones")
-
         text1color.style.color ="red"
+        
         setTimeout(function(){
             text1color.style.color = "#58287F";
          }, 2000);
@@ -34,7 +34,6 @@ function validarD() {
         desencriptar()
     }else {
         let text1color=document.getElementById("condiciones")
-
         text1color.style.color ="red"
         setTimeout(function(){
             text1color.style.color = "#58287F";
